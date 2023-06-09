@@ -1,0 +1,40 @@
+/* Estilos generales del tablero */
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    color: azure;
+  }
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: azure;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+  }
+  
+  .cell:hover {
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/e1a3bc162895723.63dcdd9ff1dd6.jpg");
+    background-size:contain;
+}
+  
+   
+body{
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d78d0744579283.5817430886a8b.jpg");
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.3);
+    color:azure;
+
+}
